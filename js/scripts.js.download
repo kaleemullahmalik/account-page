@@ -1,0 +1,13 @@
+﻿(function (global, undefined) {
+    var demo = {};
+
+    function showToolTip() {
+        var tooltip = $find(demo.tooltipID);
+        window.setTimeout(function () { tooltip.show(); }, 1);
+    }
+
+    global.showToolTip = showToolTip;
+    global.$relativeToDemo = demo;
+})(window);
+
+

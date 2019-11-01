@@ -1,0 +1,741 @@
+@import url("leftMenu.css");
+@import url("UBLDefault.css");
+@import url("Window.UBL.css");
+@import url("windowCustom.css");
+@import url("leftPanel.css");
+@import url("Button.css");
+@import url("MenuUBL.css");
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+.crRDiv
+{
+    cursor: pointer;
+    float: right;
+    height:120px !important;
+    width:15px !important;
+    padding-top:20px;
+}
+
+.crRDiv:hover
+{
+    cursor: pointer;
+    float: right;
+    height:120px !important;
+    width:15px !important;
+    padding-top:20px;
+    background-color:#222;
+}
+
+.crLDiv
+{
+    cursor: pointer;
+    float: left;
+    height:120px !important;
+    width:15px !important;
+    padding-top:20px;
+
+}
+
+.crLDiv:hover
+{
+    cursor: pointer;
+    float: left;
+    height:120px !important;
+    width:15px !important;
+    padding-top:20px;
+    background-color:#222;
+}
+
+
+.flRight
+{
+    background:url(images/next.png) no-repeat;
+}
+
+
+.flBack
+{
+    background:url(images/back.png) no-repeat;
+}
+
+
+.decorate
+{
+    font-family:'aspiraregular' !important;   
+    font-size:12px !important;
+    color: Black;
+}
+
+.decorate a
+{
+    text-decoration:underline;
+}
+
+.infoHeader{width:90%; height:25px;padding: 0 0 10px 0 !important;margin-bottom:35px !important;}
+
+
+
+.MyModalPanel
+{
+    
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:9999999999;
+}
+
+.imgBox
+{
+    position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+    vertical-align:middle;
+    text-align:center !important;
+    background:url(images/loading.gif) no-repeat center;
+    
+}
+
+
+.box
+{
+    
+    position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	z-index:9999999999;
+    vertical-align:middle;
+    background: #666 url(images/loadingBG.png) 50% 50% repeat;
+    opacity: .30;
+    filter: Alpha(Opacity=30);
+}
+
+
+
+
+
+
+
+
+
+body {padding:0px;margin:0px;font-size:13px;font-family: 'aspiraregular', sans-serif;/*background:#D1D7DE url(images/main-bg.png) repeat-x;*/ width:100%;min-height: 100% !important;height:100%; height:auto !important;}
+a img {border:solid 0px #000;}
+a:hover {color:#498aae;}
+.white {color:White;}
+.blue {/*color:#003F7F;*/color:#58595b;}
+.gray {color:#6A6A6A;}
+.Georgia {font-family:'aspiraregular';}
+.fs35 {font-size:35px;}
+.fs36 {font-size:36px;}
+.fs11 {font-size:11px;}
+.fs12 {font-size:12px;}
+.fs14 {font-size:14px;}
+.fs15 {font-size:15px;}
+.fs17 {font-size:17px;}
+.fs18 {font-size:18px;}
+.fs25 {font-size:25px;}
+.nb {font-weight:normal;}
+.b {font-weight:bold;}
+.fl {float:left;}
+.fr {float:right;}
+.vm {vertical-align:middle;}
+.talc {text-align:center;}
+.bold {font-weight:bold;}
+.toppadding10 {padding-top:10px;}
+.ml5{margin-left:5px;}
+
+.leftpadding20 {padding-top:20px;}
+.fifty{width:50%;}
+.thirtyPCWidth{width:30%;}
+
+.ctlError{background:url(images/error.png) no-repeat;padding-left:20px; color:Red; display:inline-block;  border:solid 1px white;margin-bottom:5px; font-weight:normal; font-family: 'aspiraregular', sans-serif; font-size:11pt;}
+.ctlWarning{color:Yellow; display:block;}
+.ctlMessage{background:url(images/ok.png) no-repeat;padding-left:20px; color:Green; display:inline-block;  border:solid 1px white;margin-bottom:5px; font-weight:normal; font-family: 'aspiraregular', sans-serif; font-size:11pt;}
+
+
+.green {color:#007036;}
+.gray2 {color:#666666;}
+.cb {clear:both;}
+.cyan {color:#05c7f2;}
+.nmnp {margin:0px; padding:0px;}
+
+.logOut
+{
+    background:url(images/ubl-logout.png) no-repeat;
+}
+
+
+.textbox {background:url(images/txtbox.png) no-repeat;border:medium none; color:#555555; height:21px; padding:2px 9px; width:121px;}
+
+/*.header .mainmenu .rmVertical  li {float:left; height:25px;  list-style-type:none; padding:0 2px 0 2px; text-align:left;}*/
+
+.headTime{padding-bottom:10px;margin-bottom:5px; color:#014B96; /*background:url(images/h-shade.png)no-repeat left bottom;*/ height:20px;}
+.time {font-size:11px; width:200px; }
+.time1 {font-size:11px; padding-left:10px; }
+.name {padding-left:10px;}
+
+.header .text {background:url(images/h-shade.png) no-repeat left bottom; width:100%; padding-bottom:10px;color:#014B96;}
+.header .text .time { font-size:11px; width:200px;}
+.header .text .time1 { font-size:11px; }
+.header .text .name { padding-left:0;}
+.header .text 
+/*
+.content .lftnav {width:auto;  padding-right:20px; display:inline;}
+.content .lftnav ul.rpRootGroup {margin:0px; padding:0px; list-style-type:none;}
+.content .lftnav ul.rpRootGroup  li.rpItem {list-style-type:none; float:none;background:url(images/lft-nav-bg.png) repeat-x; padding:7px 30px; font-size:13px; color:#003C7A; border:Solid 0px red;}
+.content .lftnav ul.rpRootGroup  li.rpItem:hover {background:url(images/h-lft-nav.png) no-repeat left top; font-weight:bold; color:White;}
+.content .lftnav ul.rpRootGroup  li.rpItem:hover {color:white}
+.content .lftnav ul.rpRootGroup  li.rpItem{color:#003C7A; text-decoration:none;}
+
+.content .lftnav .rpRootGroup .rpSlide li.rpItem {margin:0px; padding:0px; list-style-type:none;}
+.content .lftnav .rpRootGroup .rpSlide li.rpItem {margin:0px; padding: 10px 0px 0px 5px; background:none; list-style-type:none; float:none; color:#003C7A; border:Solid 0px red;}
+.content .lftnav .rpRootGroup .rpSlide li.rpItem:hover {margin:0px; padding: 10px 0px 0px 5px; background:none; font-weight:bold; color:White;}
+*/
+
+.lftSideBar{margin-top:5px;}
+.ChildPanelItem .rpItem a{color:Black;}
+.ChildPanelItem .rpItem a:hover{color:Red;}
+
+
+.content .middlecontent {border:none; width:750px; float:left;}
+
+.content_width{padding-top:15px; min-height:300px;}
+.content .middlecontent .detail {width:auto; border:solid 0px blue;position:relative;}
+.content .middlecontent .detail .email,.content .middlecontent .detail .trans { display:inline-block; width:210px; padding-top:20px; font-size:12px; padding-left:10px;}
+.content .middlecontent .detail .email img ,.content .middlecontent .detail .trans img {vertical-align:middle;  padding-right:10px;}
+.content .middlecontent .detail .dlimit,.content .middlecontent .detail .alimit { display:inline-block; width:250px; font-size:12px;}
+.content .middlecontent .detail .climit,.content .middlecontent .detail .pin { display:inline-block; width:230px; font-weight:bold; font-size:12px;}
+.content .middlecontent .tabs {padding-top:5px; }
+.content .middlecontent .tabs .top {padding-bottom:16px; background:url(images/tab-top.png) no-repeat left top;  width:730px; padding-left:10px;border:solid 0px green;}
+.tabs .top .h2 {padding-left:25px; padding-top:8px; padding-bottom:20px;padding-left:15px;}
+.ublHeader{background:url(images/header_UnitedBank.jpg) no-repeat left top;min-height:39px;height:39px;width:935px;margin-bottom:5px;}
+
+
+.header .mainmenu .logout div.LogoutButton{float:right; background:url(images/logout-bg.png) no-repeat center; width:80px; height:19px; padding:0px; text-align:center; margin-top:10px; vertical-align:middle;}
+.header .mainmenu .logout  a{vertical-align:middle; padding:2px 0 0 0; display:block;}
+
+.header .uppermenu {width:100%; height:35px; font-family: 'aspiraregular', Arial; font-size: 10px !important;}
+.header .uppermenu ul.wmenu {margin:0px; margin:0 2px 0 0; list-style-type:none;color:#0083ca;}
+.header .uppermenu ul.wmenu li {float:right; height:22px; padding:13px 10px; padding-bottom:0px;margin:0px;font-size: 11px !important;color:#0083ca;}
+.header .uppermenu ul.wmenu li.last {float:right; padding-left:40px;margin:0px;}
+.header .uppermenu ul.wmenu li.first {float:right; padding-right:0px; padding-left:8px;margin:0px;}
+
+
+.logOutClass
+{
+    font-family: 'aspiraregular', sans-serif;
+    color: #0083ca !important;
+    font-weight: 700;
+    font-size:12px;
+    font-style: normal;
+}
+.welcomeClass
+{
+    margin-top:10px;
+    margin-right:9px;   
+    font-family: 'aspiraregular', sans-serif;
+    font-size:12px;
+    color: #58595b;
+	font-weight:400;
+	font-style: normal;
+}
+
+
+.header .logo{width:133;}
+.country
+{
+	margin-top:5px;
+	font-family: 'aspiraregular', sans-serif;
+	color:#58595b;
+	font-weight:bold;
+}
+
+.content {margin:0 auto; width:950px;}
+.common {margin:0 auto; width:950px;}
+
+.bgClass
+{
+
+    margin:0; width:1063px;min-height: 650px !important;height: auto !important; position:relative;
+    background:url(images/background-main.jpg) no-repeat;   
+}
+
+
+.mainbody {margin:0 auto; width:950px;min-height: 650px !important;height: auto !important; position:relative;}
+
+.topHeight
+{
+	height:20px !important;	min-height:20px !important;
+}
+/*--------- pane style ----------*/
+.mr5
+{
+	margin-top:10px;	
+}
+.center_bg{padding:0; margin:0;clear:both;}
+.TopPane{ padding:0; margin:0 0 0 0;}
+.ContentPane, .BottomPane{ margin:0 0 0 0;margin-left:0px; padding-bottom:40px;}
+.LeftPane{ padding:0 20px 0 0; max-width:20%; margin:0; }
+.RightPane{ padding:0 0 0 20px;  margin:0; }
+
+
+.one {background:url(images/1.jpg) repeat-x; height:26px;}
+.two {background:url(images/2.jpg) repeat-x; height:24px;}
+.three {background:url(images/3.jpg) repeat-x; height:24px;}
+.four {background:url(images/4.jpg) repeat-x; height:28px;}
+.five {background:url(images/5.png) repeat-x; height:24px;}
+.lWidthLimit{width:157px !important;display:inline-block; }
+.lWidth{width:127px !important;display:inline-block; }
+.tabs .top .tbody {border:solid 0px; margin-left:4px; width:720px;}
+.tabs .top .tbody tr td{width:135px; padding-left:5px;} 
+.tabs .top .tbody tr.heading {width:135px;}
+.content .middlecontent .tabs .bottom {background:url(images/tab-bottom.png) no-repeat left bottom;  width:740px; height:20px;}
+
+
+.tabs .top .subtbody {width:692px; margin-top:30px; margin-left:30px;}
+.tabs .top .subtbody tr td{width:125px; padding-left:5px;}
+.tabs .top .subtbody tr.heading {background:url(images/subtablehd.png) no-repeat left bottom; height:36px;}
+.tabs .top .subtbody tr.heading td {padding-left:20px;}
+
+
+.dasboard2 .tabs .top .tbody {border:solid 0px red; margin-left:0px; width:350px;}
+.dasboard .tabs .top .tbody {border:solid 0px red; margin-left:0px; width:350px;}
+
+.dasboard .tabs .top .tform{}
+.dasboard .tabs .top .tform tr select {width:135px;}
+.dasboard .tabs .top .tform tr td {padding:8px;}
+.dasboard .tabs .top .tform tr.first select {width:315px;}
+
+.dasboard .tabs .top .reports {}
+.dasboard .tabs .reports > div{ border:solid 1px white;}
+.reports .part1 ,.reports .part2 ,.reports .part3 {margin-top:20px; margin-left:8px; border:solid 0px blue; right:7px;}
+.reports .part1 .rbottom  {border:Solid 0px red;}
+.reports .part1 .rbottom1 {background:url(images/d-tab-bottom-bg.png) no-repeat left bottom;}
+
+.reports .part4 .rleft,.reports .part3 .rleft,.reports .part2 .rleft, .reports .part1 .rleft{background:url(images/d-tab-bottom-bg_left.png) repeat-y left bottom;padding-left:4px;padding-right:8px}
+.reports .part1 .rbottom {background:url(images/d-tab-bottom-bg_middle.png) repeat-x left bottom; padding-bottom:7px;}
+.reports .part4 .rright,.reports .part3 .rright,.reports .part2 .rright, .reports .part1 .rright{background:url(images/d-tab-bottom-bg_right.png) repeat-y right bottom;padding-right:5px;}
+/*--width change in col1--*/
+.reports .part1 .rbottom .col1 {background:url(images/h-sep.png) no-repeat right 30px; width:24%; padding:20px 5px; line-height:22px; text-align:center; padding-bottom:30px; border:Solid 0px red;}
+
+
+.dasboard2 .tabs .top .tform{ padding-top:20px;}
+.dasboard2 .tabs .top .tform tr select {width:135px;}
+.dasboard2 .tabs .top .tform tr td {padding:8px;}
+
+
+.transaction .tabs .top .tform{padding-bottom:25px; padding-top:20px; margin-left:20px; border:Solid 0px red;}
+.transaction .tabs .top .tform tr select {width:145px;}
+.transaction .tabs .top .tform tr td {padding:4px 8px;}
+.transaction .tabs .top .tform tr.heading td {padding-top:20px; padding-bottom:0px;}
+.transaction .tabs .top .tform tr.first select {width:300px;}
+.transaction .tabs .top .simplattext {margin-left:15px; width:690px;}
+
+.transaction .tabs .top .rbottom2 .tbody,.transaction .tabs .top .rbottom .tbody {width:690px; border:Solid 0px red;}
+.transaction .tabs .top .rbottom2 ,.transaction .tabs .top .rbottom {padding-top:10px; padding-left:10px;  padding-bottom:20px;}
+.transaction .tabs .top .rbottom2 .tbody,.transaction .tabs .top .rbottom .tbody  {padding-left:0px; width:690px;}
+.transaction .tabs .top .rbottom2 .tbody tr td ,.transaction .tabs .top .rbottom .tbody tr td  {width:auto;}
+
+
+.reports .part3 .rbottom4{padding-top:30px; padding-left:20px;  padding-bottom:35px;}
+.reports .part3 .rbottom4 select {width:250px; margin-right:25px;}
+
+.mainfooter ul.footer {margin:0px; padding:0px; list-style-type:none; width:100%;}
+.mainfooter ul.footer li {list-style-type:none; float:left; background: #acb1b8; /* background:url(images/menu-bg.png) repeat-x; */ height:30px; padding-top:10px;}
+.mainfooter ul.footer li.first {/* background:url(images/menu-lft.png) no-repeat; */background: #acb1b8;  width:8px;padding:0px; height:30px;     padding: 5px 0 5px 0;}
+.mainfooter ul.footer li.last {/* background:url(images/menu-rgt.png) no-repeat; */ background: #acb1b8;  width:14px;padding:0px; height:30px;     padding: 5px 0 5px 0;}
+.mainfooter ul.footer li.right {text-align:left; width:470px;}
+
+
+.validatorError{
+    color:Red !important;   
+}
+
+
+/*Reg Module Css*/
+.frm {
+	float: left;
+	width:100%;
+}
+form.frm {
+	margin:20px 0 0 0;
+}
+input.frm ,
+select.frm {	
+	padding:5px;
+	float:left;
+	color:#747378;
+	/*font-family:"Trebuchet MS";
+	font-size:1.1em;*/
+}
+
+
+input.frm ,
+select.frm {
+
+	border: solid 1px #ccc;	
+}
+select.frm  {
+	width:225px;	
+}
+
+label.frm  {
+	width:200px;
+	display:block;
+	float:left;
+	margin: 5px 5px 0 0;
+}
+
+.frm input.missing,
+#txt_area textarea.missing {
+	background-color:#FFFFFF;
+	border:2px solid #fcb913;
+	color:#BE4919;
+}
+p.frm  {	
+	clear:both;
+	margin-bottom:10px;
+	margin-top:0px !important;	
+	float:left;
+	width:100%;
+}
+.frm p.fsbmt input.fsbmt {
+	margin-left:120px;
+	margin-top:10px;
+	
+	border:none;
+	background-color:transparent;
+	background:none;
+	padding:0px;
+}
+.frm p label.radio {	
+	margin-right:5px;	
+	border: solid 1px #ccc;
+}
+
+.frm p.radio input.radio,
+.frm input.checkbox,
+.frm p.checkbox{
+	width:auto;
+	height:auto;
+	border:none;
+	background:none;
+	margin: 4px 15px 10px 0;
+}
+/*Reg Module Css*/
+
+/*Password Form Fields*/
+.grayinput {
+	background-color: #003E7D !important;
+	border: 1px solid #737373;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 1px !important;
+	padding-bottom: 0;
+	height: 16px !important; 
+	width: 14px;
+	margin-top:1px !important;
+}
+.whiteinput {
+	color: #737373;
+	font-family: 'aspiraregular';
+	border: 1px solid #737373;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 1px !important;
+	padding-bottom: 0;
+	background-color: #F1F1F1;
+	height: 16px !important; 
+	width: 14px;
+}
+
+/*Password Form Fields*/
+
+
+
+
+/*Password Form Fields*/
+
+/*My Accounts Panels and Grid
+.label 
+{
+	color:#003F7F;
+	font-weight:bold;
+	display:block;
+	width:200px;
+	margin: 5px 5px 0 0;
+	font-size:11px;
+}
+
+.labelRange
+{
+	color:#003F7F;
+	font-weight:bold;
+	font-size:11px;
+}
+
+.lblText
+{
+	margin-left:10px;	
+}
+
+.valueLabel
+{
+	color:#003F7F;
+	font-size:11px;
+}
+
+.dateRangeContainer
+{
+	width:100%;float:left;height:32px;background-image:url(Images/d-tab-bg.png);background-color:Transparent;
+}
+
+.dateRangeHeading
+{
+	font-size:12px;color:#003F7F;font-weight:bold;text-indent:15px; margin-top:10px;
+}
+
+.dateRange
+{
+	width:100%;float:left;
+}
+
+.dateFrom
+{
+	width:30%;float:left;margin-left:10px;
+}
+
+.dateTo
+{
+	margin-left:30px;float:left;width:30%;
+}
+
+.heading
+{
+	font-size:12px;color:White;font-weight:bold;text-indent:7px; margin-top:4px;
+}
+
+.upDiv
+{
+	width:100%;float:left;background-color:Gray;height:25px;margin-top:12px;
+}
+
+.lftDiv
+{
+	width:49%;float:left;padding-left:10px;padding-top:10px;
+}
+
+.rgtDiv
+{
+	width:48%;float:left;padding-left:10px;padding-top:10px;
+}
+
+
+My Accounts Panels and Grid*/
+/*Pay Bills*/
+.billCompanyLogo{vertical-align:middle; text-align:center;}
+/*Pay Bills*/
+
+/*Form*/ 
+
+.UBLFormPayBills{color:Black; padding-top:5px;font-family: 'aspiraregular', sans-serif !important;font-size:8pt; font-weight:normal;; width:99%;}
+.UBLFormPayBills p{padding-bottom:10px; padding-top:0px; margin:0px;}
+.UBLFormPayBills label{	width:120px; display:inline-block; margin: 0px 0px 0 0;}
+
+.RepaymentLabel{width:135px; display:inline-block; margin: 0px 0px 0 0;}
+
+.UBLForm{color:Black; padding-top:5px;font-family: 'aspiraregular', sans-serif !important;font-size:8pt; font-weight:normal;; width:99%;}
+.UBLForm p{padding-bottom:10px; padding-top:0px; margin:0px;}
+.UBLForm label{	width:140px; display:inline-block; margin: 0px 0px 0 0;}
+.UBLFormspan{	width:140px; display:inline-block; margin: 0px 0px 0 0;}
+.UBLForm .FlowCheckBoxMultiple label{float:left;display:inline-block !important; margin: 0px 0px 0 0; vertical-align:middle !important; width:150px !important; clear:both;}
+
+.FlowRadioButton{margin: 0px 0px 0px 0px; vertical-align:middle !important; float:left;}
+.UBLForm .FlowCheckBox 
+{
+    width:100px !important;display:inline-block;margin:0;vertical-align:middle;
+}
+.UBLForm .FlowCheckBox input[type="checkbox"]
+{
+    width:15px !important;display:inline-block;margin-right:2px;margin-left:0;vertical-align:middle;
+}
+
+.UBLForm .FlowCheckBox input[type="radio"]
+{
+    width:15px !important;display:inline-block;margin-right:2px;margin-left:0;vertical-align:middle;
+}
+
+.UBLForm .FlowCheckBox label
+{
+    width:80px !important;display:inline-block;margin:0;vertical-align:middle;
+}
+
+.UBLForm .FlowCheckBox span
+{
+    width:100px !important;float:left;margin-left:6px;vertical-align:middle;
+}
+
+
+
+.UBLForm p.fsbmt input {
+	margin-left:140px;
+	margin-top:10px;
+	width:auto;	
+	height:auto;
+	border:none;
+	background-color:transparent;
+	background:none;
+	padding:0px;
+}
+
+.cbWidth
+{
+
+	display:inline;
+	width:100px;	
+}
+
+
+
+
+
+
+
+
+
+.flRadio
+{
+	width:143px;
+	float:left;
+	height:inherit;
+}
+
+
+.rdBox label
+{
+	width:250px;
+	margin-left:0px !important;	
+}
+
+.rdBox span
+{
+	height:inherit;
+	margin-left:0px !important;	
+}
+
+.rdBox checkbox
+{
+	float:left;
+	margin-left:0px !important;	
+	
+}
+	
+.rdBox
+{
+	float:left;
+	margin-left:0px !important;	
+}
+/*Form*/    
+
+.UBLFormReg{background-color:White;color:Black; width:890px;  padding-top:5px;padding-left:5px;font-family: 'aspiraregular', sans-serif !important;font-weight:normal !important;font-size:8pt;}
+.UBLFormReg p{padding-bottom:10px; padding-top:0px; margin:0px;}
+.UBLFormReg label{	width:180px; display:inline-block; margin: 0px 5px 0 0;}
+.UBLFormReg .FlowCheckBox label{display:inline !important; margin: 0px 5px 0 -2px; vertical-align:bottom !important; width:auto; border:none 0px none;}
+
+select.UBLFormReg {	
+	padding:5px;
+	float:left;
+	color:#747378;
+	/*font-family:"Trebuchet MS";
+	font-size:1.1em;*/
+}
+
+.txtBox
+{
+	margin-top:0px;	
+}
+
+.txtLbl
+{
+	margin-top:3px !important;
+}
+
+
+
+
+.pan { width:715px;float:left;margin:0;}
+#pan { width:715px; float:left;}
+.tp-title { background:url(images/top-title-img.png) left no-repeat; height:32px;}
+.tp-bar { background:url(images/top-img.png) no-repeat left; height:0;}
+.cn-bar { /* background:url(images/center-img.png) left repeat-y; */background:#fff; border-left: 1px solid #84888f;  border-right: 1px solid #84888f; padding: 5px 5px 0 10px; }
+.bot-bar { /* background:url(images/bottom-img.png) left no-repeat;  */	height:18px; background:#fff;    border-bottom: 1px solid #84888f;border-left: 1px solid #84888f;    border-right: 1px solid #84888f;}
+.pM
+{
+	height:inherit !important;
+	margin-left:5px;	
+}
+.cn-barPanel { background:url(images/center-img.png) left repeat-y; padding: 5px 5px 0 10px; width:710px; }
+
+
+.titleHeading
+{
+	margin-left:10px;
+	color: Navy !important;
+	font: normal 14px/32px 'aspiraregular', Arial, sans-serif;
+	font-weight:bold;	
+	
+}
+
+
+.titleLink
+{
+	margin-right:10px;
+	margin-top:2px;
+	color: Navy !important;
+	font: normal 10px/32px 'aspiraregular', Arial, sans-serif;
+	font-weight:bold;
+	
+}
+
+
+.titleButton
+{
+	margin-right:10px;
+	margin-top:2px;
+	color: Navy !important;
+	font: normal 10px/32px 'aspiraregular', Arial, sans-serif;
+	font-weight:bold;
+	
+}
+
+
+
+
+.advSearch
+{
+	width:220px;	
+}
+
+.advSearchrRight
+{
+	width:330px;	
+}
+
+
+.radioLabel
+{
+    width:60px !important;
+}
+
+
+.radAjax
+{
+    height: 100% !important;
+}
+.msgRed
+{
+    color: Red !important;    
+}

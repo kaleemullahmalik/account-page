@@ -1,0 +1,47 @@
+﻿/* RadToolTip Default Skin */
+
+.RadToolTip_Default.rtLoading
+{	
+	background: url('WebResource.axd?d=rBdL_4IH618t2sbBpobggMLc18Xfr1lP1HHZOilthjxtsSLz8RgnVnX6L17QO-PG25XE7_gYMVawNIllHfxT76mWQ0hfn-UmPZzbiI6tUFw0zocjCe64QHHrCfMwIbgdyS0ZXP8UFApMAvN00&t=634416743665473646') no-repeat center;
+}
+
+div.RadToolTip_Default table.rtWrapper td.rtWrapperTopLeft,
+div.RadToolTip_Default table.rtWrapper td.rtWrapperTopRight,
+div.RadToolTip_Default table.rtWrapper td.rtWrapperBottomLeft,
+div.RadToolTip_Default table.rtWrapper td.rtWrapperBottomRight,
+div.RadToolTip_Default table.rtWrapper td.rtWrapperTopCenter,
+div.RadToolTip_Default table.rtWrapper td.rtWrapperBottomCenter,
+div.RadToolTip_Default table.rtShadow td.rtWrapperTopLeft,
+div.RadToolTip_Default table.rtShadow td.rtWrapperTopRight,
+div.RadToolTip_Default table.rtShadow td.rtWrapperBottomLeft,
+div.RadToolTip_Default table.rtShadow td.rtWrapperBottomRight,
+div.RadToolTip_Default table.rtShadow td.rtWrapperTopCenter,
+div.RadToolTip_Default table.rtShadow td.rtWrapperBottomCenter,
+div.RadToolTip_Default a.rtCloseButton
+{
+	background-image: url('WebResource.axd?d=_P2AB9okDY5RKZKLyd7WidbR5zCVJZCFpEG2WF8T1QryQDDSekvf8TI8wr9tnMAOWwmVJwi9q8wEk8PDUEVLSd7yBms-q_9ayl0gF5wuPr04Ng7pT0_wgnTnW7gzNJwowjuHx2yWlkmmPGGA4mciqj1Wk141&t=634416743665473646');
+}
+
+div.RadToolTip_Default table.rtWrapper td.rtWrapperLeftMiddle,
+div.RadToolTip_Default table.rtWrapper td.rtWrapperRightMiddle,
+div.RadToolTip_Default table.rtShadow td.rtWrapperLeftMiddle,
+div.RadToolTip_Default table.rtShadow td.rtWrapperRightMiddle
+{
+	background-image:  url('WebResource.axd?d=1KocktYBSM1nY-x8IRmkMxbJWjOvsK-3OBC8YoF_-xTholrzNToCWuBLxttK-s-IJmH57xd0JlMYORpZWt2RcRTt6VD6YbYOZA6kX8IWu8ouKgFaJe7ReUexUY3qWkaEL5ZyeAM3o_25s9a4ORJo2YuVSVliIpx8_xK4WQ2&t=634416743665473646');
+}
+
+div.RadToolTip_Default table.rtWrapper td.rtWrapperContent
+{
+	background-color: #fff;
+	color: #666;
+}
+
+div.RadToolTip_Default div.rtTitlebar
+{	
+	color: #666;
+}
+
+div.RadToolTip_Default div.rtCallout
+{
+	background-image: url('WebResource.axd?d=gvxkr4YxF4iGPZpdH6OxoiMQxROXujqIXkZVursfvMabBF1PP4rwRfsBCz6VsCh9DtmxyLGcfjfnebN5dWshjle7RFcH0MJW7HIsopGiH7xnmlog2yQHOU1UA-EpxkWH5atf6f-ZsnBjF8xEHMaQBrgGakc1&t=634416743665473646');
+}

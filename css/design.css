@@ -1,0 +1,254 @@
+﻿.label 
+{
+	color:#003F7F;
+	font-weight:bold;
+	width:130px; 
+	display:inline-block !important;	
+	margin: 5px 5px 0 0;
+	font-size:11px;
+}
+
+
+
+
+.labelRange
+{
+	color:#003F7F;
+	font-weight:bold;
+	font-size:11px;
+}
+
+.lblText
+{
+	margin-left:10px;	
+	color:Black !important;
+}
+
+.valueLabel
+{    
+    display:inline !important; 
+    margin: 0px 5px 0 0;
+	color:#003F7F;
+	font-size:11px;	
+}
+
+.indention
+{
+	display:inline !important; 
+    margin: 5px 0 0 5px;
+	font-size:11px;	
+	float:left;
+	width:180px;
+}
+
+.indentionCC
+{
+	display:inline !important; 
+    margin: 5px 0 0 5px;
+	font-size:11px;	
+	float:left;
+	width:140px;
+}
+
+
+.mainIndention
+{
+	display:inline !important; 
+    margin: 5px 0 0 0;
+	font-size:11px;	
+	width:35%;
+	min-width:35%;
+	padding-right:20px;
+	float:left;
+}
+.mainIndentionCC
+{
+	display:inline !important; 
+    margin: 5px 0 0 0;
+	font-size:11px;	
+	width:45%;
+	min-width:30%;
+	padding-right:20px;
+	float:left;
+	
+}
+
+.customIndention
+{
+	display:inline !important; 
+    margin: 5px 0 0 0;
+	font-size:11px;	
+	width:120px !important;
+	font-weight:normal !important;
+	padding-right:20px;
+	float:left;
+}
+
+.customIndention label
+{
+	font-weight:normal !important;
+	width:80px !important;
+	padding:0 !important;
+}
+
+.payAnyoneIndention
+{
+	display:inline !important; 
+    margin: 10px 0 0 5px;
+	font-size:11px;	
+	float:left;
+	width:180px;
+}
+
+.payIndention
+{
+	display:inline !important; 
+    margin: 10px 0 0 0;
+	font-weight:bold;
+	font-size:11px;	
+	width:135px;
+	padding-right:20px;
+	float:left;
+}
+
+.loginIndention
+{
+	display:inline !important; 
+    margin: 10px 0 0 5px;
+	font-size:11px;	
+	float:left;
+	width:350px;
+}
+
+.logIndention
+{
+	display:inline !important; 
+    margin: 10px 0 0 0;
+	font-weight:bold;
+	font-size:11px;	
+	width:190px;
+	padding-right:20px;
+	float:left;
+}
+
+.button
+{
+	font-family:'aspiraregular' , Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+
+
+
+.dateRangeContainer
+{
+	width:100%;float:left;background-color:Gray;height:25px;
+}
+
+.dateRangeHeading
+{
+	font-size:12px;color:White;font-weight:bold;text-indent:7px; margin-top:4px;
+}
+
+.dateRange
+{
+	width:100%;float:left;
+}
+
+
+.heading
+{
+	font-size:12px;color:White;font-weight:bold;text-indent:7px; margin-top:4px;
+}
+
+.upDiv
+{
+	width:100%;float:left;background-color:Gray;height:25px;margin-top:12px;
+}
+
+.lftDiv
+{
+	width:47%;float:left;padding-left:10px;padding-top:10px; 
+}
+
+.rgtDiv
+{
+	width:48%;float:left;padding-left:10px;padding-top:10px;
+}
+
+.RadPanelBar .rpRootGroup,    
+.RadPanelBar .rpRootGroup .rpLink  
+{    
+     border: none !important;    
+     color: #5F5F5F;  
+     text-decoration: none;  
+     border-bottom-width: 0px !important;  
+}  
+
+
+
+.customIndentionPayBills
+{
+	display:inline !important; 
+    margin: 5px 0 0 0;
+	font-size:11px;	
+	width:120px !important;
+	font-weight:bold !important;
+	padding-right:20px;
+	float:left;
+}
+
+
+
+.customIndentionLimit
+{
+	display:inline !important; 
+    margin: 0 0 0 0;
+	font-size:11px;	
+	width:360px !important;
+	padding-right:20px;
+
+}
+
+
+.customIndentionLimit label
+{
+	display:inline !important; 
+    margin: 0 0 0 0;
+	font-size:11px;	
+	width:320px !important;
+	padding-right:20px;
+
+}
+
+
+
+.ml15
+{
+    margin-left:15px;
+}
+
+
+
+
+
+.payAnyoneIndentionWidth
+{
+	display:inline !important; 
+    margin: 10px 0 0 5px;
+	font-size:11px;	
+	float:left;
+
+}
+
+
+
+.textPay
+{
+	display:inline !important; 
+    margin: 10px 0 0 5px;
+	font-size:11px;	
+	float:left;
+	width:105px !important;
+	
+}
